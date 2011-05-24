@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" ActiveRuntime="Mono 2.10.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Binsembler\Binsembler.cs">
+    <Files>
+      <File FileName="bstest\Main.cs" Line="65" Column="43" />
+      <File FileName="Binsembler\Binsembler.cs" Line="126" Column="44" />
+      <File FileName="Binsembler\Program.cs" Line="239" Column="39" />
+      <File FileName="Binsembler\Main.cs" Line="4" Column="28" />
+      <File FileName="Binsembler\Properties\AssemblyInfo.cs" Line="36" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Carl Kittelberger" Email="icedream2k9@die-optimisten.net" Copyright="(c) 2011 Carl Kittelberger" Company="" Trademark="" />
+</Properties>

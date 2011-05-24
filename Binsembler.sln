@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binsembler", "Binsembler\Binsembler.csproj", "{EEAB101D-3E88-4309-BD57-D7DF23CD5172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bstest", "bstest\bstest.csproj", "{7A8A0E7E-F3FB-4305-B86D-3F5484DC1A91}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages.mdproj", "{CBCE7D22-02C3-4E71-A18B-628BEAEFDEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A8A0E7E-F3FB-4305-B86D-3F5484DC1A91}.Debug|x86.ActiveCfg = Debug|x86
+		{7A8A0E7E-F3FB-4305-B86D-3F5484DC1A91}.Debug|x86.Build.0 = Debug|x86
+		{7A8A0E7E-F3FB-4305-B86D-3F5484DC1A91}.Release|x86.ActiveCfg = Release|x86
+		{7A8A0E7E-F3FB-4305-B86D-3F5484DC1A91}.Release|x86.Build.0 = Release|x86
+		{CBCE7D22-02C3-4E71-A18B-628BEAEFDEE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CBCE7D22-02C3-4E71-A18B-628BEAEFDEE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{EEAB101D-3E88-4309-BD57-D7DF23CD5172}.Debug|x86.ActiveCfg = Debug|x86
+		{EEAB101D-3E88-4309-BD57-D7DF23CD5172}.Debug|x86.Build.0 = Debug|x86
+		{EEAB101D-3E88-4309-BD57-D7DF23CD5172}.Release|x86.ActiveCfg = Release|x86
+		{EEAB101D-3E88-4309-BD57-D7DF23CD5172}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = bstest\bstest.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.StandardHeader = $2
+		$2.Text = @ \n ${FileName}\n \n Author:\n      ${AuthorName} <${AuthorEmail}>\n\n Copyright (c) ${Year} ${CopyrightHolder}\n\n This program is free software: you can redistribute it and/or modify\n it under the terms of the GNU General Public License as published by\n the Free Software Foundation, either version 3 of the License, or\n (at your option) any later version.\n\n This program is distributed in the hope that it will be useful,\n but WITHOUT ANY WARRANTY; without even the implied warranty of\n MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n GNU General Public License for more details.\n\n You should have received a copy of the GNU General Public License\n along with this program.  If not, see <http://www.gnu.org/licenses/>.
+		$2.IncludeInNewFiles = True
+		$0.VersionControlPolicy = $3
+		$3.inheritsSet = Mono
+		$0.ChangeLogPolicy = $4
+		$4.VcsIntegration = RequireEntry
+		$4.inheritsSet = Mono
+		description = A tool which helps you to import your needed files into your assembler code.
+		version = 1.0
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
